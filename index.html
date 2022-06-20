@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PedeLogo</title>
+    <link rel="stylesheet" href="reset.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;1,400&display=swap"
+    rel="stylesheet">
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+
+    <body>
+        <header class="header">
+            <div class="container">
+                <input type="checkbox" id="menu" class="container__botao">
+                <label for="menu">
+            <span class="cabecalho__menu-hamburguer" class="container__imagem"></span>
+            </label>
+                <ul class="lista-menu">
+                    <li class="lista-menu__item"><a class="lista-menu__link">Endereços</a></li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Cadastre-se</a></li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Cadastre seu estabelecimento</a></li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Cadastre seu estabelecimento</a></li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Leve o pede.logo para sua cidade</a></li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Meus pedidos</a></li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Favoritos</a></li>
+                  </ul>
+            </div>
+     
+
+        <div class="container">
+            <a href="#"><img src="img/favoritos.svg" alt="Botão favoritos" class="container__imagem"></a>
+            <a href="#"><img src="img/carrinhocompras.svg" alt="Carrinho de compras" class="container__imagem"></a>
+            <a href="#"><img src="img/usuario.svg" alt="Meu Perfil" class="container__imagem"></a>  
+        </div>      
+        </header>
+
+        <section class="logopedeai">                           
+            <h2 class="logo__titulo">O que não tem na sua casa, temos no Pede Logo</h2>
+            <p class="logo__texto">Você está esperando o que? Pede logo!</p>
+            <input type="search" class="area__pesquisa" placeholder="Qual será o seu próximo pedido?">
+        </section>
+
+        <section class="containerinicio">
+            <div class="container__inicioimg"><img src="img/restaurantes2.png" alt="imagem de restaurante" class="imgcategorias">
+                <p class="imagemlegenda">Restaurantes</p>
+            </div>
+            <div class="container__inicioimg"><img src="img/Bebidas.png" alt="imagem de Bebidas" class="imgcategorias">
+                <p class="imagemlegenda">Bebidas</p>
+            </div>
+            <div class="container__inicioimg"><img src="img/farmacias.png" alt="imagem de Farmacia" class="imgcategorias">
+                <p class="imagemlegenda">Farmácias</p>
+            </div>
+            <div class="container__inicioimg"><img src="img/Mercado.png" alt="imagem de Mercado" class="imgcategorias">
+                <p class="imagemlegenda">Mercados</p>
+            </div>
+            <div class="container__inicioimg"><img src="img/Pets.png" alt="imagem de Pet" class="imgcategorias">
+                <p class="imagemlegenda">Pets</p>
+            </div>
+            <div class="container__inicioimg"><img src="img/lojas.png" alt="imagem de Lojas" class="imgcategorias">
+                <p class="imagemlegenda">Lojas</p>
+            </div>
+            <div class="container__inicioimg"><img src="img/aguaegas.png" alt="imagem de Agua e Gás" class="imgcategorias">
+            <p class="imagemlegenda">Água e Gás</p>
+            </div>
+            <div class="container__inicioimg"><img src="img/Hortifruti.png" alt="Imagem de Hortifruti" class="imgcategorias">
+                <p class="imagemlegenda">Hortifruti</p>
+            </div>
+        </section>
+
+        <section class="containermeio">
+            <div class="containermeio__img"><img src="img/promocaoimagem.png" alt="Oferta de aniversario" class="imgpromocoes"></div>
+            <div class="containermeio__img"><img src="img/comidastipicas.png" alt="Comidas tipicas" class="imgpromocoes"></div>
+            <div class="containermeio__img"><img src="img/compreeganhe.png" alt="imagem compre e ganhe minibag" class="imgpromocoes"></div>
+            <div class="containermeio__img"><img src="img/entregasplus.png" alt="imagem de entrega" class="imgpromocoes"></div>
+
+        </section>
+
+        <section class="carrossel">
+            <h2 class="carrossel__titulo">Categorias</h2>
+            <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="img/Gelados.png" alt="imagem sorvete">
+        <p class="textocarrossel">Gelados</p>
+    </div>
+      <div class="swiper-slide"><img src="img/hamburger.png" alt="imagem hamburguer">
+        <p class="textocarrossel">Hamburguer</p>
+    </div>
+      <div class="swiper-slide"><img src="img/hotdog.png" alt="imagem hotdog">
+        <p class="textocarrossel">Hot-dog</p>
+    </div>
+      <div class="swiper-slide"><img src="img/jantinha.png" alt="imagem de jantar">
+        <p class="textocarrossel">Jantares</p>
+    </div>
+      <div class="swiper-slide"><img src="img/japonesa.png" alt="imagem de comida japonesa">
+        <p class="textocarrossel">Japa</p>
+    </div>
+      <div class="swiper-slide"><img src="img/massas.png" alt="imagem de massas">
+        <p class="textocarrossel">Massas</p>
+    </div>
+      <div class="swiper-slide"><img src="img/mexicana.png" alt="imagem de comida mexicana">
+        <p class="textocarrossel">Mexicana</p>
+    </div>
+      <div class="swiper-slide"><img src="img/pizza.png" alt="imagem de pizza">
+        <p class="textocarrossel">Pizza</p>
+    </div>
+      <div class="swiper-slide"><img src="img/Regional.png" alt="imagem de comida regional">
+        <p class="textocarrossel">Regional</p>
+    </div>
+      <div class="swiper-slide"><img src="img/Salgados.png" alt="imagem de Salgadinhos">
+        <p class="textocarrossel">Salgados</p>
+    </div>
+      <div class="swiper-slide"><img src="img/saudavel.png" alt="imagem de salada">
+        <p class="textocarrossel">Saladas</p>
+    </div>
+      <div class="swiper-slide"><img src="img/sobremesas.png" alt="imagem de sobremesas">
+        <p class="textocarrossel">Sobremesas</p>
+    </div>
+      <div class="swiper-slide"><img src="img/sopasecaldos.png" alt="imagem de sopa">
+        <p class="textocarrossel">Sopas</p>
+    </div>
+      
+
+      ...
+    </div>
+  
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>  
+  </div> 
+
+
+    <div class="containerlojas">
+      <div class="containerlojas2">
+      <img src="img/carrancas.png" class="imgcontainer">
+        <div class="outro-container">
+          <h4 class="titulolojas">CARRANCAS</h4>
+          <div class="informacoeslojas"><p>⭐ 5.0</p></div>
+          <div class="informacoeslojas"><p>🕑 30-60 min</p></div>
+          <div class="informacoeslojas"><p>🚲 R$ 10,00</p></div>           
+        </div>
+      </div>
+    </div>
+
+    <div class="containerlojas">
+      <div class="containerlojas2">
+      <img src="img/kibon.png" alt="Estabelecimento Kibon" class="imgcontainer">
+        <div class="outro-container">
+          <h4 class="titulolojas">Kibon Sorveteria</h4>
+          <div class="informacoeslojas"><p>⭐ 5.0</p></div>
+          <div class="informacoeslojas"><p>🕑 30-60 min</p></div>
+          <div class="informacoeslojas"><p>🚲 R$ 10,00</p></div>             
+        </div>
+      </div>
+    </div>
+
+    <div class="containerlojas">
+      <div class="containerlojas2">
+      <img src="img/yolitosorvete.png" alt="Estabelecimento Yolito" class="imgcontainer">
+        <div class="outro-container">
+          <h4 class="titulolojas">Yolito Sorvetes</h4>
+          <div class="informacoeslojas"><p>⭐ 5.0</p></div>
+          <div class="informacoeslojas"><p>🕑 30-60 min</p></div>
+          <div class="informacoeslojas"><p>🚲 R$ 10,00</p></div>            
+        </div>
+      </div>
+    </div>
+
+    <div class="containerlojas">
+      <div class="containerlojas2">
+      <img src="img/kerodoces.png" alt="estabelecimento Kero Doces" class="imgcontainer">
+        <div class="outro-container">
+          <h4 class="titulolojas">Kero Doces</h4>
+          <div class="informacoeslojas"><p>⭐ 5.0</p></div>
+          <div class="informacoeslojas"><p>🕑 30-60 min</p></div>
+          <div class="informacoeslojas"><p>🚲 R$ 10,00</p></div>         
+        </div>
+      </div>
+    </div>
+
+
+    <div class="containerlojas">
+      <div class="containerlojas2">
+      <img src="img/imperiobeer.png" alt="Estabelecimento Imperio Beer" class="imgcontainer">
+        <div class="outro-container">
+          <h4 class="titulolojas">Imperio Beer</h4>
+          <div class="informacoeslojas"><p>⭐ 5.0</p></div>
+          <div class="informacoeslojas"><p>🕑 30-60 min</p></div>
+          <div class="informacoeslojas"><p>🚲 R$ 10,00</p></div>            
+        </div>
+      </div>
+    </div>
+
+
+    <div class="containerlojas">
+      <div class="containerlojas2">
+      <img src="img/greenvale.png" alt="Esbebelecimento Green Vale" class="imgcontainer">
+        <div class="outro-container">
+          <h4 class="titulolojas">Green Vale</h4>
+          <div class="informacoeslojas"><p>⭐ 5.0</p></div>
+          <div class="informacoeslojas"><p>🕑 30-60 min</p></div>
+          <div class="informacoeslojas"><p>🚲 R$ 10,00</p></div>           
+        </div>
+      </div>
+    </div>
+
+
+    <div class="containerlojas">
+      <div class="containerlojas2">
+      <img src="img/frutosdegoias.png" alt="Estabelecimento Fruto de Goias" class="imgcontainer">
+        <div class="outro-container">
+          <h4 class="titulolojas">Fruto de Goiás</h4>
+          <div class="informacoeslojas"><p>⭐ 5.0</p></div>
+          <div class="informacoeslojas"><p>🕑 30-60 min</p></div>
+          <div class="informacoeslojas"><p>🚲 R$ 10,00</p></div>             
+        </div>
+      </div>
+    </div>
+
+
+    <div class="containerlojas">
+      <div class="containerlojas2">
+      <img src="img/frisabor.png" alt="estabelecimento frisabor" class="imgcontainer">
+        <div class="outro-container">
+          <h4 class="titulolojas">Frisabor</h4>
+          <div class="informacoeslojas"><p>⭐ 5.0</p></div>
+          <div class="informacoeslojas"><p>🕑 30-60 min</p></div>
+          <div class="informacoeslojas"><p>🚲 R$ 10,00</p></div>             
+        </div>
+      </div>
+    </div>
+
+
+    <div class="containerlojas">
+      <div class="containerlojas2">
+      <img src="img/donnadoçura.png" alt="estabelecimento Donna Doçura" class="imgcontainer">
+        <div class="outro-container">
+          <h4 class="titulolojas">Donna Doçura</h4>
+          <div class="informacoeslojas"><p>⭐ 5.0</p></div>
+          <div class="informacoeslojas"><p>🕑 30-60 min</p></div>
+          <div class="informacoeslojas"><p>🚲 R$ 10,00</p></div>           
+        </div>
+      </div>
+    </div>
+
+
+    <div class="containerlojas">
+      <div class="containerlojas2">
+      <img src="img/docesdebia.png" alt="Doce de Bia" class="imgcontainer">
+        <div class="outro-container">
+          <h4 class="titulolojas">Doce de Bia</h4>
+          <div class="informacoeslojas"><p>⭐ 5.0</p></div>
+          <div class="informacoeslojas"><p>🕑 30-60 min</p></div>
+          <div class="informacoeslojas"><p>🚲 R$ 10,00</p></div>             
+        </div>
+      </div>
+    </div>
+
+
+    <div class="containerlojas">
+      <div class="containerlojas2">
+      <img src="img/dindins.png" alt="estabelecimento didins gourmet" class="imgcontainer">
+        <div class="outro-container">
+          <h4 class="titulolojas">Didins Gourmet</h4>
+          <div class="informacoeslojas"><p>⭐ 5.0</p></div>
+          <div class="informacoeslojas"><p>🕑 30-60 min</p></div>
+          <div class="informacoeslojas"><p>🚲 R$ 10,00</p></div>             
+        </div>
+      </div>
+    </div>
+
+
+    <div class="containerlojas">
+      <div class="containerlojas2">
+      <img src="img/topdistribuidora.png" alt="Estabelecimento Top Distribuidora" class="imgcontainer">
+        <div class="outro-container">
+          <h4 class="titulolojas">Top Distribuidora</h4>
+          <div class="informacoeslojas"><p>⭐ 5.0</p></div>
+          <div class="informacoeslojas"><p>🕑 30-60 min</p></div>
+          <div class="informacoeslojas"><p>🚲 R$ 10,00</p></div>            
+        </div>
+      </div>
+    </div>
+        </section>   
+        
+       <footer>
+        <img src="img/logo_transparent.png" class="logofooter">
+         <h4 class="titlefooter">Sobre o pede Logo</h4>  
+         <div class="footertexto"><p>Fale Conosco</p></div>
+         <div class="footertexto"><p>Cadastre seu estabelecimento</p></div>
+         <div class="footertexto"><p>Seja um entregador</p></div>
+         <div class="footertexto"><p>Leve o Pede Logo para a sua cidade</p></div>     
+        
+
+        <div>
+          <h4 class="titlefooter">Legal</h4>
+          <div class="footertexto"><p>Política de Privacidade</p></div>
+          <div class="footertexto"><p>Termos e condições do Usuário</p></div>
+          <div class="footertexto"><p>Termos e condições do Entregador</p></div>
+          <div class="footertexto"><p>Termos e condições do Estabelecimento</p></div>
+        </div>
+
+
+       </footer> 
+
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {                
+                spaceBetween: 10,
+                slidesPerView: 4,
+                pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+  },
+             });
+        </script>
+    </body>
+</html>

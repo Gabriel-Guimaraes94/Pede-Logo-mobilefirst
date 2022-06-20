@@ -1,0 +1,36 @@
+.logopedeai {
+    background: rgb(224,120,7);
+background: linear-gradient(90deg, rgba(224,120,7,1) 21%, rgba(240,131,13,1) 47%, rgba(214,137,54,1) 88%);
+text-align: center;
+padding: 2.5em 2em;
+}
+
+.logo__titulo {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.logo__texto {
+    font-weight: 400;
+    margin: 1em 0;
+}
+
+.area__pesquisa {
+    background-color: transparent;
+    border: 1px solid var(--headerbackground);
+    border-radius: 24px;
+    color: var(--headerbackground);
+    padding: 1em;
+    width: 100%;
+}
+
+.area__pesquisa::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--headerbackground);
+    background: url(../img/lupa.svg);
+    background-repeat: no-repeat;
+    background-position: 1em;
+
+}

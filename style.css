@@ -1,0 +1,20 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/estabelecimentos.css");
+@import url("styles/footer.css");
+
+:root {
+    --backgroundpage: #EBECEE;
+    --headerbackground: #FFFFFF;
+    
+    
+
+}
+
+body {
+    background-color: var(--backgroundpage);
+    font-family: 'Nunito', sans-serif;
+}
+
+
